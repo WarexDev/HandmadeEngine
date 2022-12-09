@@ -1,7 +1,7 @@
 @echo off
 
-mkdir ..\..\build
-pushd ..\..\build
+mkdir ..\..\build\debug
+pushd ..\..\build\debug
 cl -Zi ..\Code\win32_handmadeEngine.cpp user32.lib Kernel32.lib
 popd
 
